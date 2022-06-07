@@ -20,7 +20,7 @@ public class Calculos {
 	
 	public static void sort(Integer[] lista) {
 		for (int i=0; i<lista.length-1;i++) {
-			for(int j=1;j<lista.length;j++) {
+			for(int j=(i+1);j<lista.length;j++) {
 				if (lista[i]<lista[j]) {
 					Integer aux = lista[i];
 					lista[i]=lista[j];
