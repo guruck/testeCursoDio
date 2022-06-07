@@ -13,9 +13,24 @@ public class Calculos {
 			lista[i] = readInt();
 		}
 		sort(lista);
+		
+		System.out.println("Maior numero: " + lista[0]);
+		System.out.println("Menor numero: " + lista[9]);
+		Integer soma = 0;
 		for (Integer num:lista) {
-			System.out.print(num+ " ");
+			soma+=num;
 		}
+		System.out.println("Media dos numeros: " + soma/10);
+		String acimaDeDez ="";
+		for (Integer num:lista) {
+			if (num > 10) acimaDeDez+=num + " ";
+		}
+		System.out.println("Numeros acima de 10: " + acimaDeDez);
+		String acimaDeCinquenta ="";
+		for (Integer num:lista) {
+			if (num > 50) acimaDeCinquenta+=num + " ";
+		}
+		System.out.println("Numeros acima de 50: " + acimaDeCinquenta);
 	}
 	
 	public static void sort(Integer[] lista) {
