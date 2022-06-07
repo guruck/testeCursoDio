@@ -33,7 +33,26 @@ public class Main {
 		result += cx.calculaValorFinal(p3, 1);
 		System.out.println(result);
 		
+		result = "";
+		result += p4.getNome() + " | ";
+		result += p4.getValor()+ " | ";
+		result += p4.getTipo()+ " | ";
+		result += cx.calculaValorFinal(p4, 12);
+		System.out.println(result);
 		
+		result = "";
+		result += p5.getNome() + " | ";
+		result += p5.getValor()+ " | ";
+		result += p5.getTipo()+ " | ";
+		result += cx.calculaValorFinal(p5, 5);
+		System.out.println(result);
+		
+		result = "";
+		result += p6.getNome() + " | ";
+		result += p6.getValor()+ " | ";
+		result += p6.getTipo()+ " | ";
+		result += cx.calculaValorFinal(p6, 1);
+		System.out.println(result);
 		
 	}
 }
