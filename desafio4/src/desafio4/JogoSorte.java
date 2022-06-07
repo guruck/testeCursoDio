@@ -13,7 +13,7 @@ public class JogoSorte {
         int aleatorio = random.nextInt(10);
 
         do {
-        	System.out.println("Digite Número inteiro aleatório de 0 até 10:");
+        	System.out.println("Digite Numero inteiro aleatorio de 0 ate 10:");
         	num = readInt();
         	if (num == aleatorio )System.out.println("Parabens!");
         }while(aleatorio != num);
